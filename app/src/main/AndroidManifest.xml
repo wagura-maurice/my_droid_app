@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 <!-- set label name for app -->
-    <application android:label="myapp">
+    <application android:label="droid">
     <!-- it contains one activity -->
         <activity android:name=".MainActivity">
         <!-- it contains a launcher activity -->
