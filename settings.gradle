@@ -26,7 +26,7 @@ dependencyResolutionManagement {
 }
 
 //name of gradle project
-rootProject.name = 'myapp'
+rootProject.name = 'droid'
 
 //include sub-project in app folder
 include 'app'
