@@ -7,4 +7,26 @@
  * in the user manual at https://docs.gradle.org/7.5/userguide/multi_project_builds.html
  */
 
+// list of repositories to find plugins
+pluginManagement {
+  repositories {
+    gradlePluginPortal()
+    google()
+    mavenCentral()
+  }
+}
+
+//list repositories to find packages & libraries
+dependencyResolutionManagement {
+     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+
+//name of gradle project
 rootProject.name = 'myapp'
+
+//include sub-project in app folder
+include 'app'
