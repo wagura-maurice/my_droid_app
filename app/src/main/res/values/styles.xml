@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light">
+        <!-- Customize your theme attributes -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <!-- Add more customizations as needed -->
+    </style>
+
+    <!-- Theme without ActionBar -->
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!-- You may customize other attributes here if needed -->
+    </style>
+
+    <!-- Theme.AppCompat.NoActionBar -->
+    <style name="Theme.AppCompat.NoActionBar" parent="Theme.AppCompat">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <!-- You may customize other attributes here if needed -->
+    </style>
+
+</resources>

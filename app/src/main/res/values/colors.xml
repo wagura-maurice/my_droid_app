@@ -1,0 +1,7 @@
+<resources>
+    <color name="colorPrimary">#FF4081</color>
+    <color name="colorPrimaryVariant">#FF2067</color>
+    <color name="colorSecondary">#3F51B5</color>
+    <color name="colorSecondaryVariant">#303F9F</color>
+    <color name="windowBackground">#FFFFFF</color>
+</resources>
