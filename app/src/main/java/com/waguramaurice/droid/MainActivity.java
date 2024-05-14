@@ -1,5 +1,4 @@
 // app/src/main/java/com/waguramaurice/droid/MainActivity.java
-
 package com.waguramaurice.droid;
 
 import android.app.Activity;
