@@ -1,25 +1,25 @@
-// list of plugin required for building this project
+// app/build.gradle
 plugins {
-  id 'com.android.application'
+    id 'com.android.application'
 }
 
-// settings required for android plugin
 android {
-    namespace 'com.waguramaurice.droid' //directory of java class files
-
-    compileSdkVersion 30 //compile app for this version of API
+    compileSdkVersion 30
     defaultConfig {
-        applicationId 'com.waguramaurice.droid' //set id for app
-        minSdkVersion 16 //minimum API this app supports
-        targetSdkVersion 30 //compile for this API
+        applicationId 'com.waguramaurice.droid'
+        minSdkVersion 16
+        targetSdkVersion 30
         versionCode 1
         versionName "1.0"
     }
     buildTypes {
         release {
             minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'),
-                    'proguard-rules.pro'
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+}
+
+dependencies {
+    implementation 'com.google.android.material:material:1.4.0'
 }
